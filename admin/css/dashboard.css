@@ -1,0 +1,57 @@
+.container {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+hr {
+    width: 1400px;
+}
+
+.allbox {
+    height: 420px;
+    width: 1450px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -20px;
+}
+
+.box {
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    border-radius: 15px;
+    height: 180px;
+    width: 300px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.allbox a {
+    text-decoration: none;
+}
+
+.box h2 {
+    margin-top: -18px;
+    padding: 10px;
+    font-size: 80px;
+    color: tomato;
+}
+
+.box p {
+    padding-top: 25px;
+    font-size: 24px;
+    color: black;
+}
+
+.box:hover {
+    background-color: rgb(234, 234, 234);
+}

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+.heading {
+    height: 90px;
+    background-image: linear-gradient(to right, rgb(0, 68, 20), rgb(0, 194, 194));
+}
+
+.category {
+    color: tomato;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+.firstcontainer {
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    height: 330px;
+    margin: 30px 90px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 42px;
+    padding: 20px 50px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.desc {
+    width: 380px;
+    padding: 60px 26px;
+    font-size: 20px;
+}
+
+.price,
+.qty {
+    padding: 60px 25px;
+    font-size: 20px;
+}
+
+.secondcontainer {
+    position: absolute;
+    width: 430px;
+    height: 570px;
+    background-color: rgb(255, 255, 255);
+    right: 90px;
+    top: 120px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+}
+
+.moredetail {
+    padding: 20px;
+}
+
+.personalinfo,
+.priceinfo {
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+span {
+    position: absolute;
+    right: 40px;
+}
+
+.caption {
+    font-size: 13px;
+    color: rgb(70, 70, 70);
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 386px;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+    box-shadow: 1px 1px 1px black;
+}
+
+.button {
+    margin-top: 10px;
+    width: 386px;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 2px;
+    background-color: tomato;
+}
+
+.button:hover {
+    transform: scale(1.025);
+    opacity: 0.9;
+}

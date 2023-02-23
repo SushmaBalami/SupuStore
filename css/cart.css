@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+.heading {
+    height: 90px;
+    background-image: linear-gradient(to right, rgb(0, 68, 20), rgb(0, 194, 194));
+}
+
+h2 {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: tomato;
+}
+
+.table {
+    background-color: rgb(255, 255, 255);
+    transform: translate(30%, 0);
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    margin-bottom: 50px;
+}
+
+.table th {
+    padding: 16px 20px;
+    font-size: 20px;
+}
+
+.date {
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 50px;
+}
+
+.table td {
+    font-size: 18px;
+}
+
+.pquantity input {
+    font-size: 16px;
+    width: 40px;
+}
+
+.removeitem {
+    margin-top: -18px;
+}
+
+.removeitem a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 20px;
+    width: 600px;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 14px;
+    background-color: tomato;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}

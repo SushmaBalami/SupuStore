@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-right: 30px;
+}
+
+.title {
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.category {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: "98%";
+}
+
+td,
+th {
+    padding: 10px;
+    font-size: 14px;
+}
+
+th {
+    background-color: tomato;
+    border: solid 0.5px grey;
+}
+
+td {
+    padding: 10px;
+    background-color: #f9e4e4;
+    border: solid 0.5px grey;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}

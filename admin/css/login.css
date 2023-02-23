@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.634)), url("../img/bg.jpg");
+    background-size: 100%;
+    width: 100%;
+}
+
+.boom {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 100px;
+}
+
+.left h2 {
+    font-size: 50px;
+    color: tomato;
+}
+
+.left p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    color: plum;
+    line-height: 40px;
+}
+
+.container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 50px 40px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 5, 15);
+    perspective: 2700px;
+    border-radius: 5px;
+}
+
+.forms .form-content .title {
+    position: relative;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forms .form-content .input-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.form-content .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.form-content .input-box i {
+    position: absolute;
+    font-size: 17px;
+    color: grey;
+}
+
+.forms .form-content .button {
+    color: #fff;
+    margin-top: 40px;
+}
+
+.forms .form-content .button input {
+    color: #fff;
+    background: plum;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.forms .form-content .button input:hover {
+    background: tomato;
+}

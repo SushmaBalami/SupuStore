@@ -1,0 +1,523 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.first-container {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)100%, rgba(0, 0, 0, 0.6)100%), url(../images/luga.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mid-desc {
+    padding-top: 180px;
+    color: plum;
+    text-align: left;
+    padding-left: 180px;
+}
+
+section button {
+    margin: 40px 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+
+#aboutus {
+    cursor: pointer;
+    color: black;
+}
+
+#join {
+    cursor: pointer;
+    background-color: plum;
+    color: black;
+}
+
+#aboutus:hover,
+#join:hover {
+    background-color: tomato;
+    color: white;
+}
+
+
+/* login*/
+
+.container {
+    top: -620px;
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin: 0 850px -400px;
+}
+
+.container .forms {
+    display: flex;
+    align-items: center;
+    height: 440px;
+    width: 200%;
+    transition: height 0.2s ease;
+}
+
+.container .form {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    transition: margin-left 0.18s ease;
+}
+
+.container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .input-field {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: none;
+    transition: all 0.2s ease;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+}
+
+.form .forget {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form .forget .text,
+.form .login-signup .text {
+    font-size: 18px;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+.form .text {
+    color: #333;
+    font-size: 16px;
+}
+
+.form a.text {
+    color: plum;
+    text-decoration: none;
+}
+
+.form a.text:hover {
+    color: tomato;
+    text-decoration: none;
+}
+
+.form .button {
+    margin-top: 35px;
+}
+
+.form .button input {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: plum;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.button input:hover {
+    background-color: tomato;
+}
+
+.form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* about */
+
+.smalldesc {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 40px;
+}
+
+.about-content {
+    margin: 20px 200px 20px 280px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.aboutdesc {
+    padding-left: 88px;
+}
+
+.listabt {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.listabt li {
+    line-height: 40px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+}
+
+.listabt li i {
+    margin: 0 10px;
+    color: green;
+}
+
+.second-container {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)100%, rgba(0, 0, 0, 0.5)100%), url(../images/thriftbg.jpg);
+    min-height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.servicedesc {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: white;
+    text-align: right;
+    padding: 60px 0px 40px 230px;
+    line-height: 25px;
+    align-items: center;
+}
+
+.rightservice {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.servicegallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicegallery a {
+    text-decoration: none;
+}
+
+.servicegallery .item {
+    height: 380px;
+    width: 310px;
+    background-color: white;
+    margin: 5px 20px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.servicegallery .item:hover {
+    box-shadow: 5px 5px 20px plum, -5px -5px 20px plum;
+}
+
+.servicegallery .item img {
+    padding: 10px;
+}
+
+.servicegallery .item h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: tomato;
+}
+
+.servicegallery .item p {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(100, 101, 99);
+    line-height: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+.viewprod {
+    margin: 50px;
+}
+
+.viewprod a {
+    text-decoration: none;
+}
+
+.viewprod a button {
+    padding: 16px 40px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: plum;
+    border: none;
+    transition: all 0.5s;
+}
+
+.viewprod a button:hover {
+    background-color: tomato;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.viewprod a button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.viewprod a button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.viewprod a button:hover span {
+    padding-right: 25px;
+}
+
+.viewprod a button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/* Feature */
+
+.feature-content {
+    margin: 20px 200px 20px 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.featuredesc {
+    padding-left: 80px;
+}
+
+.featuredesc .featurebox {
+    width: 650px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgb(71, 69, 69), -1px -1px 30px rgb(71, 69, 69);
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featurebox i {
+    font-size: 40px;
+    padding: 50px 70px;
+}
+
+.featurebox .information {
+    position: absolute;
+    padding: 5px 0px 10px 180px;
+    width: 620px;
+}
+
+.featurebox .information p {
+    margin-top: -8px;
+    line-height: 22px;
+}
+
+.featurebox h2 {
+    font-size: 26px;
+    color: tomato;
+    line-height: 60px;
+}
+
+.featurebox p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.banner {
+    margin-top: 120px;
+    width: 100%;
+    height: 230px;
+    background-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.banner .item i {
+    font-size: 40px;
+}
+
+.banner .item i,
+.banner .item .text {
+    line-height: 60px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.banner .item .number {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.majorclient {
+    height: 600px;
+}
+
+.clients {
+    display: flex;
+    margin: 20px 160px 50px;
+    width: 80%;
+    height: 370px;
+}
+
+.client-details {
+    width: 600px;
+    height: 490px;
+    background-color: white;
+    margin: 0 20px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.client-details img {
+    padding: 5px;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 5px;
+}
+
+.client-details h2 {
+    color: plum;
+    margin: 15px 0 5px;
+}
+
+.client-details p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 26px;
+    color: grey;
+    margin-top: 15px;
+}
+
+.contact-container {
+    margin: 20px 200px -10px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.contact-container .form {
+    width: 580px;
+    height: 500px;
+}
+
+.contact-container .form input,
+.contact-container .form textarea {
+    width: 540px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+    box-shadow: 1px 1px 1px black;
+}
+
+.contact-container .form textarea {
+    height: 150px;
+}
+
+#sendbtn {
+    width: 540px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color: plum;
+    transition: all 0.5s;
+}
+
+#sendbtn:hover {
+    background-color: tomato;
+}
+
+.address .addressrow {
+    width: 500px;
+    height: 120px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addressrow i {
+    padding: 20px 50px 0 50px;
+    font-size: 40px;
+}
+
+.addressrow .addressdesc h2 {
+    font-size: 28px;
+    color: plum;
+}
+
+.addressrow .addressdesc p {
+    font-size: 14px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.errormsg {
+    z-index: 1;
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin: 10px 0 -20px;
+    font-style: italic;
+}
